@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?><project-modules id="moduleCoreId" project-version="1.5.0">
+    <wb-module deploy-name="SampleWebProject-0.0.1-SNAPSHOT">
+        <wb-resource deploy-path="/" source-path="/target/m2e-wtp/web-resources"/>
+        <wb-resource deploy-path="/" source-path="/WebContent" tag="defaultRootSource"/>
+        <wb-resource deploy-path="/" source-path="/src/main/webapp"/>
+        <wb-resource deploy-path="/WEB-INF/classes" source-path="/src"/>
+        <dependent-module archiveName="alexa-skills-kit-1.4.1.jar" deploy-path="/WEB-INF/lib" handle="module:/resource/alexa-skills-kit-java-master/alexa-skills-kit-java-master">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <property name="context-root" value="SampleWebProject"/>
+        <property name="java-output-path" value="/SampleWebProject/build/classes"/>
+    </wb-module>
+</project-modules>
